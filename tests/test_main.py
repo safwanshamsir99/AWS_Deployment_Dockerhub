@@ -27,5 +27,5 @@ def test_add():
     assert "num3" in json_data
 
     num3 = json_data["num3"]
-    assert isinstance(num3, float)
+    assert isinstance(num3, float), "num3 is not float data type"
     assert num3 == 69.12
